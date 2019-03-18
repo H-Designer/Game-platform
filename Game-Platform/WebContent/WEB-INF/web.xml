@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Game-Platform</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>ServerLet.loginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/ServerLet/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>ServerLet.registerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/ServerLet/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PIMServlet</servlet-name>
+    <servlet-class>ServerLet.PIMServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PIMServlet</servlet-name>
+    <url-pattern>/ServerLet/PIMServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>adminServlet</servlet-name>
+    <servlet-class>ServerLet.adminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminServlet</servlet-name>
+    <url-pattern>/ServerLet/adminServlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>

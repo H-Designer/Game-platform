@@ -1,0 +1,121 @@
+.head1{
+ 	height: 200px;
+ 	margin-top: 20px;
+ 	margin-left: 20px;
+ 	margin-right: 20px;
+ 	background-color: ;
+ }
+ 	.head{//头部的文字区域
+ 	height: 40px;
+ 	margin-top: 20px;
+ 	margin-left: 20px;
+ 	margin-right: 20px;
+ 	background-color:    ;
+ 	
+ 		}
+ 	
+	.test {//字体设置
+	font-size: 20px;
+	color: coral ;
+	font-style: italic;
+	margin-left: 650px;
+		}
+	.logo{
+	height:150px;
+	width:220px;
+	margin-left:40px;
+ 	margin-top:10px;
+ 	background-color: ;
+ 	float: left;
+	}
+	.search{
+	height: 100px;
+	width:600px;
+	margin-left:230px;
+ 	margin-top:40px;
+ 	background-color: ;
+ 	float: left;
+ 	
+	}
+	.left1{
+	height: 600px;
+	width:300px;
+	margin-left:60px;
+ 	margin-top:50px;
+ 		 	 	float: left;
+ 		
+	}
+	.center1{
+	height: 250px;
+	width:250px;
+	margin-left:50px;
+ 	margin-top:50px;
+ 	background-color: ;
+ 	 	float: left;
+	}
+	.center2{
+	height: 250px;
+	width:250px;
+	margin-left:50px;
+ 	margin-top:50px;
+ 	background-color: ;
+ 	 	float: left;
+	}
+	.right1{
+	height: 250px;
+	width:250px;
+	margin-left:50px;
+ 	margin-top:50px;
+ 	background-color: ;
+ 	 	float: left;
+	}
+	.center3{
+	height: 250px;
+	width:250px;
+	margin-left:50px;
+ 	margin-top:80px;
+ 	background-color: ;
+ 	 	float: left;
+	}
+	.center4{
+	height: 250px;
+	width:250px;
+	margin-left:50px;
+ 	margin-top:80px;
+ 	background-color: ;
+ 	 	float: left;
+	}
+	.right2{
+	height: 250px;
+	width:250px;
+	margin-left:50px;
+ 	margin-top:80px;
+ 	background-color: ;
+ 	 	float: left;
+	}
+	.button{
+	height: 130px;
+ 	margin-top: 750px;
+ 	margin-left: 200px;
+ 	margin-right: 200px;
+ 	background-color: ;
+	}
+	.edt{
+	height:60px;width:400px;text-indent: 5px;line-height: 18px;border:1px solid #666; border-radius:25px;line-height: 70px;
+	}
+	.sousuo{
+	
+	margin-left: 320px;
+	margin-top: -43px;
+	height:20px;
+	width:40px;
+	}
+	.sousuo input
+	{
+	border-radius:8px;
+	height:40px;
+	width:80px;
+	background-color: white;
+	border:1px solid #666;
+	}
+	
